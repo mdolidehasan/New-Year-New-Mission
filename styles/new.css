@@ -16,32 +16,24 @@
     max-width: 1200px;
 }
 
-.Heading {
-    
-}
-
-.main {
-    
-}
-
 .hd1 {
     text-align: center;
-    padding: 80px;
+    padding: 100px;
 }
 
 .head1 {
-    color: white;
+    color: black;
     font-size: medium;
     text-align: center;
     font-family: Merriweather;
-    font-size: 32px;
+    font-size: 40px;
     margin-top: 100px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
 .head2 {
-    color: #FFF;
+    color: black;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
@@ -52,16 +44,16 @@
 .Banner1 {
     color: #F00;
     font-family: Inter;
-    font-size: 80px;
-    font-weight: 700;
-    margin-bottom: 40;
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 40px;
 }
 
 .Banner2 {
     color: #F00;
     font-family: Inter;
-    font-size: 24px;
-    
+    font-size: 20px;
+
 }
 
 .Banner {
@@ -73,9 +65,9 @@
 .Banner3 {
     color: #070211;
     font-family: Inter;
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 500;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .adv-pic {
@@ -104,6 +96,7 @@
 .fle {
     position: absolute;
     display: flex;
+    gap: 30px;
     justify-content: space-between;
 }
 
@@ -111,13 +104,14 @@
     /* position: absolute; */
     /* background-position: center; */
     background-repeat: no-repeat;
-    padding: 20px;
+    padding: 40px;
 }
 
 .class1 {
     color: #FFF;
+    margin-top: 60px;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .class2 {
@@ -127,36 +121,41 @@
 }
 
 .class3 {
+    border-radius: 5px;
     color: #FFF;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .cls {
     /* text-align: center; */
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
+}
 
+.img70 {
+    margin-top: 40px;
 }
 
 .class10 {
     margin-top: 60px;
     margin-bottom: 60px;
-    background-color: peachpuff;
+    background: linear-gradient(to right, #FF0000, #FFFFFF);
     text-align: center;
     padding: 20px;
+    color: greenyellow;
 }
 
 .A {
-    color: #F00;
+    color: white;
 }
 
 .B {
-    color: #F00;
+    color: white;
 }
 
 .C {
-    color: #F00;
+    color: white;
 }
 
 .btn {
@@ -169,20 +168,22 @@
 
 .h10 {
     display: flex;
-    gap: 30px;
+    gap: 50px;
+    padding: 20px;
+    background-color: lightcyan;
 }
 
 
 .as {
     color: #F00;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 24px;
 }
 
 .ad {
     color: #070211;
     font-family: Merriweather;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 900;
 }
@@ -190,19 +191,33 @@
 .af {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
+}
+
+.tsec3 {
+    padding: 20px;
 }
 
 .ag {
+    font-size: 30px;
     color: #F00;
 }
 
+.ah {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
 .pg {
-    border: 10px round #F00;
-    border-radius: 10px;
-    padding: 5px;
+    border: 10px solid #F00;
+    border-radius: 100%;
+    padding: 20px;
 }
 
 .uy {
@@ -211,7 +226,7 @@
     font-family: Merriweather;
     font-size: 60px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .uy-1 {
@@ -219,29 +234,30 @@
     font-family: Merriweather;
     font-size: 60px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .er {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
 }
 
 .holy {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
+    padding: 20px;
 }
 
 .holi {
     color: #070211;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -249,6 +265,35 @@
     color: #F00;
 }
 
+.img-con {
+    padding: 20px;
+}
+
+.bakra {
+    display: flex;
+    justify-content: end;
+}
+
+.cont-3 {
+    display: flex;
+}
+
+.p2 {
+    width: 60%;
+}
+
+.p1 {
+    width: 30%;
+}
+
+.p3 {
+    width: 90%;
+}
+
+.bakra2 {
+    display: flex;
+    flex-direction: column;
+}
 
 
 .img-con-1 {
@@ -257,34 +302,19 @@
     margin-bottom: 20px;
 }
 
+.tbg {
+    padding: 20px;
+}
+
 .S {
-    width: 33%;
-}
-
-.p1 {
-    justify-content: end;
-    position: relative;
-    left: 150px;
-}
-
-
-
-.p3 {
-    position: relative;
-    right: 300px;
-    bottom: 560px;
-}
-
-.p4 {
-    width: 100%;
-    position: relative;
-    bottom: 670px;
+    width: 30%;
 }
 
 .nsdiv {
     background-color: lavenderblush;
     text-align: center;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -304,8 +334,12 @@
     font-weight: 400;
 }
 
+.input {
+    gap: 0;
+}
+
 .nsbtn {
-    border-radius: 0px 50px 50px 0px;
+    border-radius: 50px;
     background: #F00;
     color: #FFF;
     text-align: center;
@@ -323,4 +357,37 @@
     font-style: normal;
     font-weight: 600;
     padding: 5px;
+}
+
+.footer {
+    background-color: #070211;
+    color: #FFF;
+}
+
+.foot-section {
+    padding: 30px;
+}
+
+.part-1 , .part-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.part-1 {
+    border-bottom: 1px dashed white;
+}
+
+.part-2 {
+    margin-top: 10px;
+    border-bottom: 1px dashed white;
+}
+
+.links {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+@media screen {
+    
 }
