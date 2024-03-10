@@ -391,9 +391,9 @@
 
 
 @media screen and (min-width:320px) and (max-width:600px) {
-    /* body {
+    body {
         overflow-x: hidden;
-    } */
+    }
 
     .img-con-1 {
         flex-direction: column;
@@ -408,7 +408,9 @@
     }
 
     .h10 {
-        flex-direction: column;
+        flex-direction: column; 
+        background-color: antiquewhite;  
+        margin: auto;   
     }
 
     .tsec , .tsec3  {
@@ -453,5 +455,23 @@
         background-image: url(../B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
         background-size: cover;
         background-position: center;
+    }
+    .nsdiv{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .holy{
+        margin-top: 30px;
+    }
+    .uy , .uy-1{
+        font-size: 40px;
+    }
+    .nshead{
+        font-size: 35px;
+    }
+    .class10{
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
